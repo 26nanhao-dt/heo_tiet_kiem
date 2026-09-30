@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: ong-heo
+    runtime: static
+    buildCommand: mkdir -p dist && cp ong-heo.html dist/index.html && cp ong-heo.html dist/ong-heo.html && cp manifest.webmanifest sw.js icon.ico icon-180.png icon-192.png icon-512.png dist/
+    staticPublishPath: dist
+    headers:
+      - path: /sw.js
+        name: Cache-Control
+        value: no-cache
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin

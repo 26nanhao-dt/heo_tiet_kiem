@@ -1,0 +1,8 @@
+dist/
+.env
+.env.*
+!.env.example
+*.log
+Thumbs.db
+.DS_Store
+OngHeo-win32-x64/

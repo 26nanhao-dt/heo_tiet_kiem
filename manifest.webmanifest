@@ -1,0 +1,14 @@
+{
+  "name": "Ống Heo — Quản lý tiết kiệm",
+  "short_name": "Ống Heo",
+  "lang": "vi",
+  "start_url": "./ong-heo.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eeeeee",
+  "theme_color": "#185FA5",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
